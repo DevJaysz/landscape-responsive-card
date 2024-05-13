@@ -75,7 +75,7 @@ img {
   box-shadow: 0 8px 24px hsla(0, 0%, 0%, .15);
   border-radius: 1rem;
   position: absolute;
-  bottom: -9rem;
+  bottom: -10rem;
   left: 0;
   right: 0;
   margin-inline: auto;
@@ -131,6 +131,7 @@ img {
   50% {
     transform: translateY(-10rem);
   }
+
   100% {
     transform: translateY(-7rem);
   }
@@ -146,9 +147,11 @@ img {
   0% {
     transform: translateY(-7rem);
   }
+
   50% {
     transform: translateY(-10rem);
   }
+
   100% {
     transform: translateY(.5rem);
   }
@@ -159,6 +162,7 @@ img {
     overflow: initial;
     pointer-events: none;
   }
+
   50% {
     overflow: hidden;
   }
@@ -194,9 +198,11 @@ img {
   .card__container {
     grid-template-columns: repeat(3, 1fr);
   }
+
   .card__img {
     width: 348px;
   }
+
   .card__data {
     width: 316px;
     padding-inline: 2.5rem;
